@@ -20,10 +20,5 @@ namespace WinFormsApp1
             label4.Text = Convert.ToString(d) + "個餅乾， " + Convert.ToString(e1) + "盒巧克力，" + Convert.ToString(f) + "個蛋糕。";
 
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
