@@ -46,7 +46,6 @@
             label1.Size = new Size(31, 15);
             label1.TabIndex = 0;
             label1.Text = "餅乾";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
