@@ -14,11 +14,13 @@ namespace WinFormsApp1
         private void buying()
         {
             if (radioButton9.Checked && radioButton8.Checked && radioButton7.Checked)
-            { checkBox1.Enabled = false; 
+            {
+                checkBox1.Enabled = false;
                 checkBox1.Checked = false;
             }
             else
-            { checkBox1.Enabled = true; 
+            {
+                checkBox1.Enabled = true;
             }
         }
         private void count()
@@ -83,6 +85,11 @@ namespace WinFormsApp1
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             count();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
